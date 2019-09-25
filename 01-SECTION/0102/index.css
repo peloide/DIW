@@ -1,3 +1,7 @@
+*, *::before, *::after, *:before, *:after {
+    box-sizing: border-box;
+}
+
 .box {
     width: 25%;
     background-color: salmon;
