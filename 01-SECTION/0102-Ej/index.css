@@ -1,0 +1,30 @@
+*, *::before, *::after, *:before, *:after {
+    box-sizing: border-box;
+}
+/* Paso 1, Generamos unas cajas que están alineadas. Si modificamos el border se nos caerá una de las cajas hacia debajo.
+*/
+.box {
+    width: 25%;
+    height: 20rem;
+    background-color: salmon;
+    color: white;
+    float: left;
+    padding: 2rem;
+    border: 1px solid black;
+}
+
+/**
+    PASO 2:
+    Con el box-sizing: border-box el border y padding se incluye dentro del tamaño de la caja
+    Añadido el box-sizing: border-box pero solo al elemento
+.box {
+    box-sizing: border-box;
+    width: 25%;
+    height: 20rem;
+    background-color: salmon;
+    color: white;
+    float: left;
+    padding: 2rem;
+    border: 1px solid black;
+}
+*/
