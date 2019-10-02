@@ -1,4 +1,4 @@
-# Sección 02. Ejemplo 02: Ejemplo de Sass tratamiento de ficheros
+﻿# Sección 02. Ejemplo 02: Ejemplo de Sass tratamiento de ficheros
 ## Comentarios
 Los comentarios pueden ser de una sola línea // o como en css /* */
 Naturalmente los comentarios de una sola línea en el fichero .scss desaparacerán en el fichero traducido a css
