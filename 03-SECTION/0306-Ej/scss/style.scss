@@ -8,6 +8,9 @@ nav {
         border: 1px solid;
         width: 100%;
         text-align: center;
+        :hover{
+            background-color: salmon;
+        }
         li {
             display: table-cell;
             a {
