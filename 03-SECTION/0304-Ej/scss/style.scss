@@ -1,0 +1,19 @@
+div{
+    width: 25%;
+    height: 15rem;
+    background-color: deepskyblue;
+    padding: 1em;
+    color: white;
+    display: inline-block; // Dispongo los cuatro elementos en linea pero no caben por un espacio en blanco
+
+    //solucion 01;
+    //margin-left: -4px; // 
+
+    
+   
+
+}
+
+// Solucion 02
+main { font-size: 0;} // Establecer el font-size del elemento padre a 0
+div {font-size: 1rem;}
